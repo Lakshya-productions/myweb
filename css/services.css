@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.front {
+  background-color: #00000095;
+  height: 110vh;
+}
+header {
+  height: 110vh;
+  background-image: url(../images/Bg.jpg);
+  background-repeat: no-repeat;
+}
+.navigation {
+  background-color: #00000066;
+  width: 100%;
+  opacity: 1;
+}
+.cont-main {
+  height: 90vh;
+}
+nav {
+  display: flex;
+  font-family: "Montserrat", "TESLA", "Ubuntu";
+  justify-content: space-between;
+  width: 90%;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-links li {
+  padding: 1rem;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.nav-links,
+h1 {
+  flex: 1;
+}
+.nav-links li a:hover {
+  font-weight: bold;
+  transition: 0.5s ease-out;
+}
+.link1 img {
+  width: 75px;
+  cursor: pointer;
+}
+.link2 img {
+  height: 41px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.nav1-head {
+  color: whitesmoke;
+}
+.nav2-head {
+  color: #ff00aa;
+}
+.navbar h1 {
+  font-size: 25px;
+  font-family: "TESLA", "Ubuntu", sans-serif;
+}
+.cont-main h1 {
+  display: inline-block;
+}
+.cont-main h3 {
+  display: inline-block;
+}
+.cont-main {
+  margin-top: 9rem;
+  font-size: 22px;
+  font-family: "Montserrat", "TESLA", "Ubuntu";
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.cont-lines {
+  height: 7rem;
+}
+.search {
+  background-color: #00000080;
+  width: 34rem;
+  margin: auto;
+  padding-bottom: 1rem;
+  margin-top: 8rem;
+}
+.search label {
+  font-size: 12px;
+  margin-right: 22rem;
+}
+.search input#find {
+  font-size: 20px;
+  padding: 1rem;
+  width: 23rem;
+  background-color: #00000066;
+  border: none;
+}
+.search input#find:visited {
+  border: none;
+}
+.search input {
+  font-size: 20px;
+  padding: 1rem;
+  background-color: #ff00aa;
+  color: whitesmoke;
+  /* font-weight: bold; */
+  border: none;
+  cursor: pointer;
+}
+.hot-deals {
+  background-color: #313131;
+  /* height: 45rem; */
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deals {
+  width: 360px;
+  height: 460px;
+  margin: 45px;
+  background-color: #565656;
+  border-radius: 25px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", "TESLA", "Ubuntu";
+  padding: 2rem;
+}
+.head h1 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+.head input {
+  font-family: "Montserrat", "TESLA", "Ubuntu";
+  padding: 0.5rem;
+  font-size: 20px;
+  background-color: #272727;
+  color: whitesmoke;
+  border: none;
+}
+.deal-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  box-shadow: 5px 8px 14px rgba(0, 0, 0, 0.9);
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  font-size: 45px;
+  padding: 15px;
+  text-align: center;
+}

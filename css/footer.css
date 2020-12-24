@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  background-color: #1d1d1d;
+  color: whitesmoke;
+  height: 18rem;
+}
+footer h1 {
+  font-size: 2rem;
+  padding: 12px;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+}
+footer input {
+  font-size: 18px;
+  margin: 12px;
+  height: 25px;
+  padding: 6px;
+  border: none;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  width: 20rem;
+}
+.submit {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+  height: 25px;
+  border: none;
+  padding-bottom: 6px;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  width: 10rem;
+  cursor: pointer;
+}
+footer h2 {
+  /* font-size: 38px; */
+  padding: 12px;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  right: 56px;
+}
+footer a {
+  text-decoration: none;
+}
+footer img {
+  width: 115px;
+  position: absolute;
+  padding-right: 12px;
+  right: 0;
+  margin: 2rem;
+}

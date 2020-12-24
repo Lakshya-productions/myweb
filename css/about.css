@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+#progressBar {
+  height: 100%;
+}
+.front {
+  background-color: #000000cb;
+  height: 100vh;
+}
+header {
+  height: 100vh;
+  background-image: url(../images/Bgs.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.navigation {
+  background-color: #00000010;
+  width: 100%;
+  opacity: 1;
+}
+.cont-main {
+  height: 90vh;
+}
+nav {
+  display: flex;
+  font-family: "Montserrat", "TESLA", "Ubuntu";
+  justify-content: space-between;
+  width: 90%;
+  min-height: 10vh;
+  align-items: center;
+  margin: auto;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-links li {
+  padding: 1rem;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.nav-links,
+h1 {
+  flex: 1;
+}
+.nav-links li a:hover {
+  font-weight: bold;
+  transition: 0.5s ease-out;
+}
+.link1 img {
+  width: 75px;
+  cursor: pointer;
+}
+.link2 img {
+  height: 41px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.nav1-head {
+  color: whitesmoke;
+}
+.nav2-head {
+  color: #ff00aa;
+}
+.navbar h1 {
+  font-size: 25px;
+  font-family: "TESLA", "Ubuntu", sans-serif;
+}
+.cont-about {
+  margin-top: 20vh;
+  font-size: 22px;
+  font-family: "Montserrat", "TESLA", "Ubuntu";
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.cont-about h1 {
+  font-size: 70px;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  color: rgb(109, 109, 109);
+}
+.cont-about h3 {
+  font-size: 50px;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  padding-top: 70px;
+  margin: 3px;
+  color: rgb(126, 126, 126);
+}
+.cont-about h5 {
+  font-size: 20px;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  padding-top: 20px;
+  margin: 3px;
+  color: rgb(167, 167, 167);
+}
+.cont-about h6 {
+  font-size: 20px;
+  font-family: "TESLA", "Montserrat", "Ubuntu";
+  padding-top: 20px;
+  color: rgb(196, 196, 196);
+  margin: 3px;
+}
