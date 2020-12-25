@@ -1,0 +1,74 @@
+@media screen and (max-width: 1200px) {
+  .navbar {
+    /* visibility: hidden; */
+    flex-direction: column;
+    transition: all 0.7s ease-in-out;
+    height: 300px;
+  }
+  .h-nav-resp {
+    height: 72px;
+    /* transition: all 0.7s ease-in-out; */
+  }
+  .item {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  ul {
+    /* width: 0px; */
+    flex-direction: column;
+    /* display: none; */
+  }
+  li {
+    /* display: none; */
+    text-align: center;
+  }
+  .burger img {
+    display: block;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .search {
+    width: 70vw;
+    height: 5rem;
+  }
+  .search input {
+    width: 15vw;
+    font-size: 12px;
+  }
+  .search input#find {
+    width: 47vw;
+    font-size: 12px;
+  }
+  .search label {
+    margin-right: 0;
+  }
+  .cont-lines {
+    font-size: 17px;
+  }
+  footer input {
+    width: 15rem;
+  }
+  .submit {
+    width: 8rem;
+  }
+  footer h1 {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .search {
+    width: 77vw;
+  }
+  .search input {
+    width: 6em;
+    font-size: 12px;
+  }
+  footer {
+    height: 15rem;
+  }
+}
