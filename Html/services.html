@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/services.css" />
     <link rel="stylesheet" href="../css/scroll-magic.css" />
     <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../scss/m-services.css" />
+    <link rel="stylesheet" href="../scss/m-style.css" />
   </head>
   <body>
     <div class="backanime">
@@ -33,7 +33,7 @@
     <header>
       <section class="front">
         <div class="navigation">
-          <nav class="navbar">
+          <nav class="navbar h-nav-resp v-class-resp">
             <h1>
               <a href="./index.html">
                 <span class="nav1-head">partz</span>
@@ -41,7 +41,7 @@
               </a>
             </h1>
             <ul class="nav-links">
-              <li><a href="../Html/index.html"> Home </a></li>
+              <li><a href="../index.html"> Home </a></li>
               <li>
                 <a href="../Html/services.html">Services</a>
               </li>
@@ -63,6 +63,13 @@
               </span>
             </span>
           </nav>
+          <div class="burger">
+            <img src="../images/Group2.png" alt="../images/alt.png" />
+          </div>
+          <div class="burger2">
+            <img src="../images/Group1.png" alt="../images/alt.png" />
+          </div>
+        </div>
         </div>
         <div class="cont-main">
           <span class="cont-lines">
@@ -141,6 +148,7 @@
       </footer>
     </header>
     <script src="../js/app.js"></script>
+    <script src="../js/resp.js"></script>
     <script>
       $(window).on("load", function () {
         $(".backanime").fadeOut("slow");
