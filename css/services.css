@@ -3,25 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
 }
+body {
+  background-color: whitesmoke;
+}
 .front {
   background-color: #00000095;
-  height: 110vh;
+  height: 75vh;
 }
+/* ---------------------------------header------------------------------- */
 header {
   height: 110vh;
   background-image: url(../images/Bg.jpg);
   background-repeat: no-repeat;
 }
+/* ---------------------------------navbar------------------------------- */
 .navigation {
   background-color: #00000066;
-  width: 100%;
+  width: 100vw;
   opacity: 1;
-}
-.cont-main {
-  height: 90vh;
 }
 nav {
   display: flex;
@@ -71,6 +76,23 @@ h1 {
   font-size: 25px;
   font-family: "TESLA", "Ubuntu", sans-serif;
 }
+.burger img {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+  width: 40px;
+}
+.burger2 img {
+  position: relative;
+  cursor: pointer;
+  right: 1%;
+  top: 15px;
+  width: 40px;
+  display: none;
+}
+/* ---------------------------------content------------------------------- */
 .cont-main h1 {
   display: inline-block;
 }
@@ -78,7 +100,8 @@ h1 {
   display: inline-block;
 }
 .cont-main {
-  margin-top: 9rem;
+  /* margin-top: 9rem; */
+  margin-top: 20vh;
   font-size: 22px;
   font-family: "Montserrat", "TESLA", "Ubuntu";
   color: whitesmoke;
@@ -89,13 +112,14 @@ h1 {
 }
 .cont-lines {
   height: 7rem;
+  font-size: 22px;
 }
 .search {
   background-color: #00000080;
   width: 34rem;
   margin: auto;
   padding-bottom: 1rem;
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 .search label {
   font-size: 12px;
@@ -108,17 +132,16 @@ h1 {
   background-color: #00000066;
   border: none;
 }
-.search input#find:visited {
-  border: none;
-}
 .search input {
   font-size: 20px;
-  padding: 1rem;
+  padding: 1rem 0px;
   background-color: #ff00aa;
+  width: 9rem;
   color: whitesmoke;
   /* font-weight: bold; */
   border: none;
   cursor: pointer;
+  width: 9rem;
 }
 .hot-deals {
   background-color: #313131;
@@ -130,8 +153,8 @@ h1 {
   justify-content: space-between;
 }
 .deals {
-  width: 360px;
-  height: 460px;
+  width: 27rem;
+  height: 30rem;
   margin: 45px;
   background-color: #565656;
   border-radius: 25px;
@@ -140,12 +163,14 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   font-family: "Montserrat", "TESLA", "Ubuntu";
   padding: 2rem;
 }
 .head h1 {
   font-size: 30px;
   color: whitesmoke;
+  margin-right: 9px;
 }
 .head input {
   font-family: "Montserrat", "TESLA", "Ubuntu";
@@ -154,15 +179,16 @@ h1 {
   background-color: #272727;
   color: whitesmoke;
   border: none;
+  cursor: pointer;
 }
 .deal-text {
   display: flex;
   align-items: center;
   justify-content: center;
   color: whitesmoke;
-  box-shadow: 5px 8px 14px rgba(0, 0, 0, 0.9);
   font-family: "TESLA", "Montserrat", "Ubuntu";
   font-size: 45px;
   padding: 15px;
+  box-shadow: 5px 8px 14px rgba(0, 0, 0, 0.9);
   text-align: center;
 }
